@@ -19,7 +19,7 @@ export default Vue.extend({
     return helloData
   },
   methods: {
-    addTwoNumbers() {
+    addTwoNumbers(): void {
       this.val = this.addUs(2, 3);
     },
     addUs(a: number, b: number) {
